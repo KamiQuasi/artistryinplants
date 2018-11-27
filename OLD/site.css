@@ -1,0 +1,300 @@
+/* site */
+
+.fliro.default.page-bg {
+	background-color: #ffffff;
+}
+.fliro.default .text-plugin{
+	font-size: 16px;
+}
+.fliro.default p {
+	font-family: 'Lato', serif;
+	font-size: 16px;
+	color: #2f2f2f;
+}
+.fliro.default h1, .fliro.default h2, .fliro.default h3, .fliro.default h4, .fliro.default h5, .fliro.default h6 {
+	line-height: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+.fliro.default h1 {
+	color: #749316;
+	font-size: 60px;
+	font-family: 'Gabriela', sans-serif;
+	line-height: 78px;
+}
+.fliro.default h2, .fliro.default h3, .fliro.default h6 {
+	font-family: 'Marcellus', sans-serif;
+}
+.fliro.default h2 {
+	font-size: 48px;
+	color: #dcd956;
+}
+.fliro.default h2.slogan {
+	font-family: 'Gabriela', sans-serif;
+	color: #cbec1d;
+	font-size: 48px;
+	text-shadow: 1px 3px 1px rgba(0,0,0,0.8);
+	font-weight: normal;
+	line-height: 58px;
+}
+.fliro.default h3 {
+	color: #363636;
+	font-size: 24px;
+	font-family: 'Lato', sans-serif;
+}
+.fliro.default h4 {
+	font-family: 'Gabriela', sans-serif;
+	color: #749316;
+	font-size: 24px;
+	line-height: 30px;
+}
+.fliro.default h5 {
+	color: #749316;
+	font-size: 24px;
+	font-family: 'Gabriela', sans-serif;
+}
+.fliro.default h6 {
+	font-size: 18px;
+	color: #ffff7f;
+}
+.fliro.default .c1 {
+	font-size: 24px;
+	color: #222222;
+}
+.fliro.default .c2 {
+	color: #749316;
+}
+.fliro.default .slogan {
+	font-family: 'Gabriela', sans-serif;
+	color: #FFFFFF;
+	font-size: 50px;
+	text-shadow: 1px 3px 1px rgba(0,0,0,0.8);
+}
+.fliro.default .text-plugin ul {
+	padding: 0 0 0 1.2em;
+	margin: 0;
+}
+.fliro.default .divider {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #dbd7d7;
+}
+.fliro.default .center-align {
+	text-align: center;
+}
+.fliro.default .right {
+	text-align: right;
+}
+.fliro.default .text-small {
+	font-size: 14px;
+}
+.fliro.default .extra {
+	font-family: 'Lato', sans-serif;
+	font-size: 30px;
+	color: #222222;
+}
+.fliro.default .black {
+	color: #000;
+}
+.fliro.default .white {
+	color: #fff;
+}
+.fliro.default .circle {
+	border: 10px solid #f2f3f1;
+	box-sizing: content-box;
+	border-radius: 52px;
+	background-color: #749316;
+}
+.fliro.default .border-img {
+	border: 10px solid #fff;
+	box-sizing: content-box;
+	box-shadow: 0 0 0 10px #307fb6;
+}
+.fliro.default .border-img-small {
+	border: 3px solid #f2f3f1;
+	box-sizing: content-box;
+}
+.fliro.default .border-right {
+	box-sizing: content-box;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #fff;
+}
+/*content*/
+.fliro.default .content-bg {
+	background: url('assets/content-bg.jpg') repeat-x;
+}
+/* CONTACT */
+/*header*/
+.fliro.default #FormHeading-id {
+	display: none;
+}
+/* make content adaptive */
+.fliro.default div[id^='webcom-component-form'] > table > tbody > tr > td:first-child, .fliro.default div[id^='webcom-component-form'] > table > tbody > tr > td:last-child, .fliro.default div[id='preview_id_only'] > table > tbody > tr > td:first-child, .fliro.default div[id='preview_id_only'] > table > tbody > tr > td:last-child {
+	display: none;
+}
+.fliro.default div[id^='webcom-component-form'] > table > tbody > tr > td, .fliro.default div[id='preview_id_only'] > table > tbody > tr > td, .fliro.default .web_com_custom_form .form-element-size-large[type="text"], .fliro.default .web_com_custom_form table.form-element-size-large, .fliro.default .web_com_custom_form textarea.form-element-size-large, .fliro.default .web_com_custom_form select.form-element-size-large, .fliro.default .web_com_custom_form table.personName-large {
+}
+/* end content adaptive */
+
+/* labels style */
+.fliro.default .web_com_custom_form label {
+	font-weight: normal;
+	font-size: 14px;
+	margin-bottom: 0;
+}
+/* spacing between rows */
+.fliro.default .web_com_custom_form .form-element-wrapper {
+	padding: 0;
+	margin-bottom: 5px;
+}
+/* email & phone */
+/* display email & phone in the same row */
+/* end display in one row */
+/* full width */
+.fliro.default .web_com_custom_form #email-id input, .fliro.default .web_com_custom_form #phone-id input {
+}
+.fliro.default .web_com_custom_form textarea {
+	height: 80px;
+	resize: none;
+}
+/*CUSTOM*/
+/* first & last name */
+.fliro.default .web_com_custom_form .FirstName label, .fliro.default .web_com_custom_form .LastName label {
+	font-size: 12px !important;
+}
+.fliro.default .web_com_custom_form input[type='text'], .fliro.default .web_com_custom_form textarea {
+	border: 1px solid #d3d2d2;
+	background: -webkit-linear-gradient(#fff, #f3f1f1);
+	background: -o-linear-gradient(#fff, #f3f1f1);
+	background: -moz-linear-gradient(#fff, #f3f1f1);
+	background: linear-gradient(#fff, #f3f1f1);
+}
+.fliro.default .web_com_custom_form input[type='submit'] {
+}
+.fliro.default.pagebg .footer-bg {
+	background-image: url(assets/fliro-kv-bot.jpg);
+	background-position: center top;
+	background-repeat: repeat;
+}
+}
+
+
+/****************/
+/* neo main nav */
+/****************/
+.fliro.default .navigation-2-plugin .neo-asset-inner ul {
+	font-family: Lato, sans-serif;
+}
+.fliro.default .navigation-2-plugin .neo-asset-inner > ul > li {
+	padding-top: 0;
+	padding-right: 0;
+	padding-bottom: 0;
+	padding-left: 0;
+	margin-right: 30px;
+	margin-bottom: 0;
+	background-color: transparent;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	text-align: left;
+
+	border-left-color: rgb(51, 51, 51);
+	border-left-style: none;
+	border-left-width: 0;
+	border-right-color: rgb(51, 51, 51);
+	border-right-style: none;
+	border-right-width: 0;
+	border-bottom-color: rgb(51, 51, 51);
+	border-bottom-style: none;
+	border-bottom-width: 0;
+	border-top-color: rgb(51, 51, 51);
+	border-top-style: none;
+	border-top-width: 0;
+	border-top-left-radius:0;
+	border-top-right-radius:0;
+	border-bottom-left-radius:0;
+	border-bottom-right-radius:0;
+}
+.fliro.default .navigation-2-plugin .neo-asset-inner > ul > li > a {
+	color: rgb(0, 0, 0);
+}
+.fliro.default .navigation-2-plugin .neo-asset-inner > ul > li.k-state-hover {
+	background-color: transparent;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	text-align: left;
+}
+.fliro.default .navigation-2-plugin .neo-asset-inner > ul > li.k-state-hover > a {
+	color: #749316;
+}
+.fliro.default .navigation-2-plugin .neo-asset-inner > ul > li.k-state-active {
+	background-color: transparent;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	text-align: left;
+}
+.fliro.default .navigation-2-plugin .neo-asset-inner > ul > li.k-state-active > a {
+	color: #749316;
+}
+
+/***************/
+/* neo sub nav */
+/***************/
+.fliro.default .navigation-2-plugin.sub-nav-fixed-plugin ul ul > li {
+width: 130px;
+}
+.fliro.default .navigation-2-plugin ul ul > li {
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	margin-bottom: 0;
+	background-color: #749316;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	text-align: left;
+
+	border-left-color: rgb(51, 51, 51);
+	border-left-style: none;
+	border-left-width: 0;
+	border-right-color: rgb(51, 51, 51);
+	border-right-style: none;
+	border-right-width: 0;
+	border-bottom-color: #fff;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-top-color: rgb(51, 51, 51);
+	border-top-style: none;
+	border-top-width: 0;
+	border-top-left-radius:0;
+	border-top-right-radius:0;
+	border-bottom-left-radius:0;
+	border-bottom-right-radius:0;
+}
+.fliro.default .navigation-2-plugin ul ul > li > a {
+	color: #fff;
+}
+.fliro.default .navigation-2-plugin ul ul > li.k-state-hover {
+	background-color: #749316;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	text-align: left;
+}
+.fliro.default .navigation-2-plugin ul ul > li.k-state-hover > a {
+	color: #000;
+}
+.fliro.default .navigation-2-plugin ul ul > li.k-state-active {
+	background-color: #749316;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	text-align: left;
+}
+.fliro.default .navigation-2-plugin ul ul > li.k-state-active > a {
+	color: #000;
+} 

@@ -1,0 +1,5 @@
+baseURL = "http://artistryinplants.com/"
+languageCode = "en-us"
+title = "Artistry In Plants"
+theme = "artistryinplants"
+sectionPagesMenu = "main"

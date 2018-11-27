@@ -1,0 +1,30 @@
+
+{{ define "main" }}
+<main aria-role="main">
+  <header class="homepage-header">
+    <h1>{{.Title}}</h1>
+    {{ with .Params.subtitle }}
+    <span class="subtitle">{{.}}</span>
+    {{ end }}
+  </header>
+  <div class="homepage-content">
+    <!-- Note that the content for index.html, as a sort of list page, will pull from content/_index.md -->
+    {{.Content}}
+  </div>
+  <nav class="site-navbar">
+    <ul id="menu" class="menu">
+      {{ range .Site.Menus.main -}}
+        <li class="menu-item">
+          <a class="menu-item-link" href="{{ .URL | safeURL }}">{{ .Name }}</a>
+        </li>
+      {{- end }}
+    </ul>
+  </nav>
+  <div>
+    <!-- Note that .Data.Pages is the equivalent of .Site.Pages on the homepage template. -->
+    {{ range first 10 .Data.Pages }}
+        {{ .Render "summary"}}
+    {{ end }}
+  </div>
+</main>
+{{ end }}
